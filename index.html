@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,11 +25,267 @@
           </div>
           <div class="nav_btns">
             <div class="nav_toggle" id="nav-toggle">
-              <img style="width: 15px; height: auto;" src="./incons/apps.svg" alt="">
+              <img class="icon" src="./incons/apps.svg" alt="">
             </div>
           </div>
       </na>
     </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a href="https://www.linkedin.com/in/eric-brianez-giannetti-490b6b198/?originalSubdomain=br" target="_blank"  class="home_social-icon"><img class="icon" src="./incons/linkedin.svg" alt=""></a>
+              <a href="https://github.com/Eric-Giannetti" target="_blank" class="home_social-icon"><img class="icon" src="./incons/github.svg" alt=""></a>
+            </div>
+
+            <div class="home_img">
+              <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                    <image class="home_blob-img" x='12' y='18' href="./img/perfil.png"/>
+                </g>
+              </svg>
+            </div>
+
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'am Eric</h1>
+              <h3 class="home_subtitle">Full Stack Developer</h3>
+              <p class="home_descripton">High level experience in web design and development with C# and .Net</p>
+              <a href="#contact" class="button button--flex">Contact Me<img class="icon button_icon" src="./incons/contact.svg" alt=""></a>
+            </div>
+          </div>
+
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <img class="icon home_scroll-mouse" src="./incons/scroll.svg" alt="">
+              <span class="home_scroll-name">Scroll down</span>
+              <img src="./incons/downArrow.svg" class="icon home_scroll-arrow" alt="">
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">My introduction</span>
+
+        <div class="about_container container grid">
+          <img src="./img/about.jpg" alt="" class="about_img">
+
+          <div class="about_data">
+            <p class="about_description">Web developer ,with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work</p>
+
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">08+</span>
+                <span class="about_info-name">Years <br> experience</span>
+              </div>
+              <div>
+                <span class="about_info-title">20+</span>
+                <span class="about_info-name">Complected <br> project</span>
+              </div>
+              <div>
+                <span class="about_info-title">05+</span>
+                <span class="about_info-name">Compaies <br> worked</span>
+              </div>
+            </div>
+
+            <div class="about_buttons">
+              <a download="" href="" class="button button--flex"> Download CV <img class="icon button_icon" src="./incons/download.svg" alt=""> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
+
+        <div class="skills_container container grid">
+
+          <div>
+            <!-- skill 1 -->
+            <div class="skills_content skills_open">
+              <div class="skills_header">
+                <img class="skills_icon icon" src="./incons/backend.svg" alt="">
+
+                <div>
+                  <h1 class="skills_title">Frontend developer</h1>
+                  <span class="skills_subtitle">More than 4 years</span>
+                </div>
+
+                <img src="./incons/arrowDown.svg" class="skills_arrow icon" alt="">
+              </div>
+
+              <div class="skills_list grid">
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_html"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_css"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_js"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">ReactJS</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_react"></span>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div>
+            <!-- skill 2 -->
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <img class="skills_icon icon" src="./incons/brackets.svg" alt="">
+
+                <div>
+                  <h1 class="skills_title">Backend developer</h1>
+                  <span class="skills_subtitle">More than 4 years</span>
+                </div>
+
+                <img src="./incons/arrowDown.svg" class="skills_arrow icon" alt="">
+              </div>
+
+              <div class="skills_list grid">
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">C#</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_csharp"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">.Net</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_net"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">SQL server</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_sqlserver"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Java</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_java"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- skill 3 -->
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <img class="skills_icon icon" src="./incons/designer.svg" alt=""><!-- designer -->
+                
+                <div>
+                  <h1 class="skills_title">Designer</h1>
+                  <span class="skills_subtitle">More than 4 years</span>
+                </div>
+
+                <img src="./incons/arrowDown.svg" class="skills_arrow icon" alt="">
+              </div>
+
+              <div class="skills_list grid">
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Figma/Adobe XD</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_figma"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Photoshop/Illustrator</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_photoshop"></span>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+    </main>
+
+
+
   </body>
   <script src="./js/main.js"></script>
+  <script src="./js/skills.js"></script>
 </html>
