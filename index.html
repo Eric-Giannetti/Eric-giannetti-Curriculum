@@ -16,7 +16,7 @@
 
       <div class="nav_menu" id="nav-menu">
         <ul class="nav_list grid">
-          <li class="nav_item"> <a href="#home" class="nav_link"> <img src="./incons/home.svg" alt=""> Home </a> </li>
+          <li class="nav_item"> <a href="#home" class="nav_link active-link"> <img src="./incons/home.svg" alt=""> Home </a> </li>
           <li class="nav_item"> <a href="#about" class="nav_link"> <img src="./incons/user.png" alt=""> About </a> </li>
           <li class="nav_item"> <a href="#skills" class="nav_link"> <img src="./incons/skills.svg" alt=""> Skills </a>
           </li>
@@ -30,6 +30,10 @@
         <img class="nav_close" id="nav-close" style="width: 15px; height: auto;" src="./incons/close.svg" alt="">
       </div>
       <div class="nav_btns">
+        
+        <!-- DARK THEME -->
+        <!-- <img src="./incons/moon.svg" class="icon change-theme" id="theme-button" alt=""> -->
+
         <div class="nav_toggle" id="nav-toggle">
           <img class="icon" src="./incons/apps.svg" alt="">
         </div>
@@ -106,8 +110,8 @@
             </div>
           </div>
           <div class="about_buttons">
-            <a download="" href="./pdf/curriculum.pdf" class="button button--flex"> Download CV <img class="icon button_icon"
-                src="./incons/download.svg" alt=""> </a>
+            <a download="" href="./pdf/curriculum.pdf" class="button button--flex"> Download CV <img
+                class="icon button_icon" src="./incons/download.svg" alt=""> </a>
           </div>
         </div>
       </div>
@@ -640,7 +644,8 @@
           <div class="project_data">
             <h2 class="project_title">Have a new project?</h2>
             <p class="project_description">Contact me now!!!</p>
-            <a href="#contact" class="button button--flex button--white project_button">Contact Me <img src="./incons/contact.svg" class="icon project_icon button_icon" alt=""></a>
+            <a href="#contact" class="button button--flex button--white project_button">Contact Me <img
+                src="./incons/contact.svg" class="icon project_icon button_icon" alt=""></a>
           </div>
           <img src="./img/project2.png" alt="" class="project_img">
         </div>
@@ -674,7 +679,8 @@
               </div>
             </div>
 
-            <p class="testimonial_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora sapiente mollitia illum, obcaecati.</p>
+            <p class="testimonial_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora
+              sapiente mollitia illum, obcaecati.</p>
           </div>
           <!-- TESTEMUNHA 2 -->
           <div class="testimonial_content swiper-slide">
@@ -696,7 +702,8 @@
               </div>
             </div>
 
-            <p class="testimonial_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora sapiente mollitia illum, obcaecati.</p>
+            <p class="testimonial_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora
+              sapiente mollitia illum, obcaecati.</p>
           </div>
           <!-- TESTEMUNHA 3 -->
           <div class="testimonial_content swiper-slide">
@@ -716,7 +723,8 @@
                 <img src="./incons/star.svg" alt="" class="icon testimonial_icon-star">
               </div>
             </div>
-            <p class="testimonial_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora sapiente mollitia illum, obcaecati.</p>
+            <p class="testimonial_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora
+              sapiente mollitia illum, obcaecati.</p>
           </div>
         </div>
         <div class="swiper-pagination swiper-pagination-testimonial"></div>
@@ -727,10 +735,91 @@
     <section class="contact section" id="contact">
       <h2 class="section_title">Contact Me</h2>
       <span class="section_subtitle">get in toutch</span>
+
+      <div class="contact_container container grid">
+        <div>
+          <div class="contact_information">
+            <img src="./incons/phone.svg" alt="" class="icon contact_icon">
+
+            <div>
+              <h3 class="contact_title">Call Me</h3>
+              <span class="contact_subtitle">(11) 93224-6140</span>
+            </div>
+          </div>
+          <div class="contact_information">
+            <img src="./incons/mail.svg" alt="" class="icon contact_icon">
+
+            <div>
+              <h3 class="contact_title">Email</h3>
+              <span class="contact_subtitle">ericbgiant@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact_information">
+            <img src="./incons/map.svg" alt="" class="icon contact_icon">
+
+            <div>
+              <h3 class="contact_title">Location</h3>
+              <span class="contact_subtitle">São Paulo - SP</span>
+            </div>
+          </div>
+        </div>
+        <form action="" class="contact_form grid">
+          <div class="contact_inputs grid">
+            <div class="contact_content">
+              <label for="Name" class="contact_label">Name</label>
+              <input type="text" class="contact_input" placeholder="Type your name">
+            </div>
+            <div class="contact_content">
+              <label for="Name" class="contact_label">Email</label>
+              <input type="email" class="contact_input" placeholder="Type your Email">
+            </div>
+          </div>
+          <div class="contact_content">
+            <label for="Name" class="contact_label">Project</label>
+            <input type="text" class="contact_input" placeholder="Tell me your project">
+          </div>
+          <div class="contact_content">
+            <label for="Name" class="contact_label">Message</label>
+            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+          </div>
+          <div>
+            <a href="#" class="button button--flex"> Send Message <img src="./incons/contact.svg" class="icon button_icon" alt=""></a>
+          </div>
+        </form>
+      </div>
     </section>
-
-
   </main>
+
+  <footer class="footer">
+    <div class="footer_bg">
+      <div class="footer_container container grid">
+        <div>
+          <h1 class="footer_title">Eric</h1>
+          <span class="footer_subtitle">FullStack developer</span>
+        </div>
+
+        <ul class="footer_links">
+          <li><a href="#services" class="footer_link">Services</a></li>
+          <li><a href="#portifolio" class="footer_link">Portifolio</a></li>
+          <li><a href="#contact" class="footer_link">Contactme</a></li>
+        </ul>
+
+        <div class="footer_sociais">
+          <a href="" target="_blank" class="footer_social"><img class="icon" src="./incons/facebook.svg" alt=""></a>
+          <a href="" target="_blank" class="footer_social"><img class="icon" src="./incons/instagram.svg" alt=""></a>
+          <a href="https://github.com/Eric-Giannetti" target="_blank" class="footer_social"><img class="icon" src="./incons/github.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/eric-brianez-giannetti-490b6b198/?originalSubdomain=br" target="_blank" class="footer_social"><img class="icon" src="./incons/linkedin.svg" alt=""></a>
+        </div>
+      </div>
+
+      <p class="footer_copy">&#169; Eric Giannetti Tec. All right reserved</p>
+    </div>
+  </footer>
+
+
+  <a href="#" class="scroll_top" id="scroll-top">
+    <img src="./incons/arrowDown.svg" style="transform: rotate(180deg);" class="icon scroll_top-icon">
+  </a>
 
 
 
@@ -741,6 +830,10 @@
 <script src="./js/qualification.js"></script>
 <script src="./js/modal.js"></script>
 <script src="./js/carousel.js"></script>
-<script src="./js/carrosel2.js"></script>
+<script src="./js/secondCarrosel.js"></script>
+<script src="./js/scrollSection.js"></script>
+<script src="./js/changeBGHeader.js"></script>
+<script src="./js/showScrollTop.js"></script>
+<!-- <script src="./js/darkTheme.js"></script> -->
 
 </html>
