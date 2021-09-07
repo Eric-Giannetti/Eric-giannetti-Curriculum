@@ -9,6 +9,8 @@ let swipertesTimonial = new Swiper('.testimonial_container', {
         dynamicBullets: true,
       },
       brealpoints:{
+        568:{
         slidesPreView: 2,
+        }
       }
 });
