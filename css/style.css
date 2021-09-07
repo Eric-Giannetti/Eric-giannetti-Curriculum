@@ -840,7 +840,7 @@ color: var(--first-color);
 }
 
 .contact_content{
-  background-color: var(--input-color);
+  background-color: var(--first-color-lighter);
   border-radius: .5rem;
   padding: .75rem 1rem .25rem;
 }
@@ -852,7 +852,7 @@ color: var(--first-color);
 
 .contact_input{
   width: 100%;
-  background-color: var(--input-color);
+  background-color: var(--first-color-lighter);
   color: var(--text-color);
   font-family: var(--body-color);
   font-size: var(--normal-font-size) ;
@@ -985,3 +985,59 @@ color: var(--first-color);
   border-radius: .5rem;
 
 } 
+
+
+@media screen and (max-width: 350px) {
+  .container{
+    margin: 0 var(--mb-1);
+  }
+  .nav_menu{
+    padding: 2rem .25rem 4rem;
+  }
+  .nav_list{
+    column-gap: 0;
+  }
+  .home_content{
+    grid-template-columns: .25fr 3fr;
+  }
+  .home_blob{
+    width: 180px;
+  }
+  .skills_title{
+    font-size: var(--normal-font-size); 
+  }
+  .qualification_data{
+    gap: .5rem;
+  }
+
+  .services_container{
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+
+  .services_content{
+    padding: 3.5rem;
+  }
+  .services_modal{
+    padding: 0 .5rem;
+  }
+
+  .project_img{
+    width: 200px;
+  }
+
+  .testimonial_data,
+  .testimonial_header{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial_img{
+    margin-right: 0;
+    margin-bottom: var(--mb-0-25);
+  }
+  .testimonial_description{
+    text-align: center;
+  }
+}
