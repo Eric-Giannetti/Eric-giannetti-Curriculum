@@ -483,11 +483,16 @@ color: var(--first-color);
 
 .skills_close .skills_list{
    height: 0;
+   transform: translate3d(0, -100px, 0);
+   opacity: 0;
    overflow: hidden;
 }
 
 .skills_open .skills_list {
+  transition: 1s;
   height: max-content;
+  opacity: 1;
+  transform: translate3d(0,0,0);
   margin-bottom: var(--mb-2-5);
 }
 
