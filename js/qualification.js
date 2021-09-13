@@ -3,7 +3,6 @@ const tabContents = document.querySelectorAll('[data-content]')
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () =>{
-        console.log("aaaaaa")
         const target = document.querySelector(tab.dataset.target)
 
         tabContents.forEach(tabContent => {

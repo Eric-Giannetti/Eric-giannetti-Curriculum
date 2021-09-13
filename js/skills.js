@@ -2,8 +2,6 @@ const skillsContent = document.getElementsByClassName('skills_content');
 const skillsHeader = document.querySelectorAll('.skills_header');
 const skillsData = document.querySelectorAll('.skills_data');
 
-console.log(skillsContent);
-
 function toggleSkills(){
     let itemClass = this.parentNode.className;
 

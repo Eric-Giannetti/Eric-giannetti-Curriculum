@@ -474,11 +474,14 @@ color: var(--first-color);
 .skills_css,.skills_net,.skills_sqlserver,.skills_photoshop{
   width: 80%;
 }
-.skills_js{
+.skills_js, .skills_kotlin{
   width: 70%;
 }
 .skills_react,.skills_java{
   width: 60%;
+}
+.skills_angular{
+  width: 40%;
 }
 
 .skills_close .skills_list{
